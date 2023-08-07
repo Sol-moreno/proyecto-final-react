@@ -1,0 +1,25 @@
+.carrito{
+    width:4rem ;
+    border-radius: 60%;
+    
+}
+
+.numerador{
+    position: absolute;
+    top: 55px;
+    left : 25px;
+    font-size: 1.5rem;
+    text-align: center;
+    min-height: 18px;
+    line-height: 18px;
+    vertical-align: middle;
+    padding: 2px 5px;
+    border-radius: 9px;
+    list-style: none;
+    display: flex;
+    
+  }
+  .cero{
+    background-color: white
+     
+  }

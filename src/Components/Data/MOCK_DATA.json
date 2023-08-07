@@ -1,0 +1,315 @@
+[
+    {
+        "id": 1,
+        "nombre": "Figura Capitan America",
+        "descripcion": "Realizada con resina, pintada a mano con cabeza intercambiable",
+        "precio": 8000,
+        "img": "/capitanAmerica.jpg",
+        "categoria":"figuras anime",
+         "stock": 4
+    },
+    {
+        "id": 2,
+        "nombre": "Mario Bros Porta Joisting",
+        "descripcion": "Figura realizada con impresora 3d ",
+        "precio": 5000,
+        "img": "/mariobross.jpg",
+        "categoria":"varios",
+        "stock": 6
+    },
+     
+    {
+        "id": 3,
+        "nombre": "Silver Surfer ",
+        "descripcion": "Silver Surfer es un personaje ficticio de cómic del Universo Marvel creado por Jack Kirby,su primera aparición fue en Los 4 Fantásticos.Figura en resina con base PLA y pintado con aerógrafo, medidas 28x36x16,5 cm aproximadamente. Figura de colección",
+        "precio": 7000,
+        "img": "/silversurfer.pgn.jpg",
+        "categoria":"figuras anime",
+        "stock": 2
+    },
+    
+    {
+        "id": 4,
+        "nombre": "Maceta Gatito ",
+        "descripcion": " Amamos nuestras nuevas macetitas con su plantita Astrophytum, que es un género de cactus con 6 especies diferentes.  Astrophytum: nombre genérico que significa planta con forma de estrella ",
+        "precio": 2000,
+        "img": "/gatitocactus.jpg ",
+        "categoria":"macetas",
+        "stock": 10
+    },
+    
+    {
+        "id": 5,
+        "nombre": "Maceta mi mejor amigo",
+        "descripcion": " Figura realizada con impresora 3D , tamaño y diseño personalizado  ",
+        "precio": 1000,
+        "img": "/macetaperrito.jpg ",
+        "categoria":"macetas",
+        "stock": 8
+    },
+    {
+        "id": 6,
+        "nombre": "Maceta Meditar",
+        "descripcion": "Maceta Meditar de la coleccion zen , colores personalizados , realizada con impresora 3D",
+        "precio": 2000,
+        "img": "/macetabuda.jpg",
+        "categoria":"macetas",
+        "stock": 12
+    },
+    {
+        "id": 7,
+        "nombre": "Figura Yoda",
+        "descripcion": " Hermosa cabeza de Yoda , tenemos la figura de baby yoda tambien , todo realizado con impresora 3D , con la mejor calidad ",
+        "precio": 4000,
+        "img": "/yoda.jpg ",
+        "categoria":"figuras anime",
+        "stock": 3
+    },
+    {
+        "id": 8,
+        "nombre": "Mandalorian",
+        "descripcion": "Figura de coleccion , realizada con impresora 3D , tambien puede realizarse con resina a pedido ",
+        "precio": 3000,
+        "img": "/mandalorian.jpg ",
+        "categoria":"figuras anime",
+        "stock": 5
+    },
+    {
+        "id": 9,
+        "nombre": "Baby Yoda",
+        "descripcion": " Figura pintada con aerografo ",
+        "precio": 3000,
+        "img": "/babyyodajpg.jpg ",
+        "categoria":"figuras anime",
+        "stock": 4
+    },
+    {
+        "id": 10,
+        "nombre": "Figura Batman",
+        "descripcion": " Figura 3d printing",
+        "precio": 3000,
+        "img": "/batman.jpg ",
+        "categoria":"figuras anime",
+        "stock": 7
+    },
+    {
+        "id": 11,
+        "nombre": "Busto Mimir",
+        "descripcion": "Busto de Mimir 20 cm de altura. Mimir es el Dios de la Sabiduría y el Conocimiento, conocido popularmente por ser el hombre vivo más listo, es un ser de gran inteligencia que sirvió como consejero de odin hasta que este le aprisionó en un árbol durante 109 inviernos. ",
+        "precio": 3000,
+        "img": "/bustosabiduria.jpg",
+        "categoria":"figuras anime",
+        "stock": 2
+    },
+    {
+        "id":12,
+        "nombre": "Busto Vegeta",
+        "descripcion": "Busto majin vegeta 13 cm de altura  ",
+        "precio": 3000,
+        "img": "/bustovegetajpg.jpg ",
+        "categoria":"figuras anime",
+        "stock": 5
+    },
+    {
+        "id": 13,
+        "nombre": "Busto Capitan America",
+        "descripcion": " Figura de 20cm de altura ",
+        "precio": 3000,
+        "img": "/figuraalitas.jpg ",
+        "categoria":"figuras anime",
+        "stock": 4
+    },
+    {
+        "id": 14,
+        "nombre": "iron Man",
+        "descripcion": "Figurita iron man 15 cm de altura ",
+        "precio": 3000,
+        "img": "/figuraironman.jpg ",
+        "categoria":"figuras anime",
+        "stock": 3
+    },
+    {
+        "id": 15,
+        "nombre": "Busto Predator",
+        "descripcion": "Busto de predator echo en resina con base en pla a pedido ",
+        "precio": 3000,
+        "img": "/predador.jpg",
+        "categoria":"figuras anime",
+        "stock": 2
+    },
+    {
+        "id": 16,
+        "nombre": "Soporte Calavera",
+        "descripcion": "Soporte para audifonos calavera ",
+        "precio": 1000,
+        "img": "/calaveraportaauri.jpg",
+        "categoria":"varios",
+        "stock": 12
+    },
+
+    {
+        "id": 17,
+        "nombre": "Honguitos Mario",
+        "descripcion": "Cajitas Mario Bross , para guardar lo que quieras. ",
+        "precio": 1000,
+        "img": "/macetasongo.png",
+        "categoria":"varios",
+        "stock": 20
+    },
+    {
+        "id": 18,
+        "nombre": "Soporte Darthvader",
+        "descripcion": " Soporte para auricular",
+        "precio": 1000,
+        "img": "/portaauristar.jpg",
+        "categoria":"varios",
+        "stock": 15
+    },
+    {
+        "id": 19,
+        "nombre": "Llaveros Emogis",
+        "descripcion": "llaveros bebito fiu fiu , ideal para regalar para el dia del amigo ",
+        "precio": 1000,
+        "img": "/llaveros.jpg",
+        "categoria":"varios",
+        "stock": 50
+    },
+    {
+        "id": 20,
+        "nombre": " Soporte Señor de los Anillos",
+        "descripcion": "Soporte para auricular",
+        "precio": 1000,
+        "img": "/lordkinhportaauri.jpg",
+        "categoria":"varios",
+        "stock": 17
+    },
+    {
+        "id": 21,
+        "nombre": " Mugman ",
+        "descripcion": "Para soporte de joystick ",
+        "precio": 1000,
+        "img": "/pinichio.jpg",
+        "categoria":"varios",
+        "stock": 17
+    },
+    {
+        "id": 22,
+        "nombre": "Mate Potter",
+        "descripcion": "Mate Harry Potter , para ponerle magia a tus mates  ",
+        "precio": 1000,
+        "img": "/matehp.png",
+        "categoria":"varios",
+        "stock": 15
+    },
+   
+    {
+        "id": 24,
+        "nombre": "Maceta Expresión",
+        "descripcion": " Figura realizada con impresora 3D , tamaño y diseño personalizado  ",
+        "precio": 1000,
+        "img": "/cara.jpg ",
+        "categoria":"macetas",
+        "stock": 8
+    },
+    {
+        "id": 25,
+        "nombre": "Maceta Erizo",
+        "descripcion": " Figura realizada con impresora 3D , tamaño y diseño personalizado  ",
+        "precio": 1000,
+        "img": "/erizo.jpg ",
+        "categoria":"macetas",
+        "stock": 9
+    },
+    {
+        "id": 26,
+        "nombre": "Maceta Amor de familia",
+        "descripcion": " Figura realizada con impresora 3D , tamaño y diseño personalizado  ",
+        "precio": 1000,
+        "img": "/flia.jpg",
+        "categoria":"macetas",
+        "stock": 11
+    },
+  
+    {
+        "id": 27,
+        "nombre": "Maceta Amarilla",
+        "descripcion": " Figura realizada con impresora 3D , tamaño y diseño personalizado  ",
+        "precio": 1000,
+        "img": "/macetaamarilla.jpg ",
+        "categoria":"macetas",
+        "stock": 23
+    },
+    {
+        "id": 28,
+        "nombre": "Maceta Cactus",
+        "descripcion": " Figura realizada con impresora 3D , tamaño y diseño personalizado  ",
+        "precio": 1000,
+        "img": "/macetacactus.jpg",
+        "categoria":"macetas",
+        "stock": 20
+    },
+    {
+        "id": 29,
+        "nombre": " Maceta Elefante",
+        "descripcion": "  Figura realizada con impresora 3D , tamaño y diseño personalizado  ",
+        "precio": 1000,
+        "img": "/macetaelefate.jpg ",
+        "categoria":"macetas",
+        "stock": 20
+    },
+    {
+        "id": 30,
+        "nombre": " Gato Feliz",
+        "descripcion": " Figura realizada con impresora 3D , tamaño y diseño personalizado  ",
+        "precio": 1000,
+        "img": "/gatitocactus.jpg ",
+        "categoria":"macetas",
+        "stock": 14
+    },
+    {
+        "id": 31,
+        "nombre": "Gato Durmiente ",
+        "descripcion": " Figura realizada con impresora 3D , tamaño y diseño personalizado  ",
+        "precio": 1000,
+        "img": "/macetagatitojpg.jpg ",
+        "categoria":"macetas",
+        "stock": 10
+    },
+    {
+        "id": 32,
+        "nombre": "Maceta Pregnant",
+        "descripcion": " Macetitas minis , ideal para regalo de dulce espera ",
+        "precio": 1000,
+        "img": "/macetapregnant.jpg ",
+        "categoria":"macetas",
+        "stock": 12
+    
+    },
+    {
+        "id": 33,
+        "nombre": "Maceta Schnauzer",
+        "descripcion": " Hermosas macetas perro schnauzer con con sistema de regado desde bajo, modelo nuevo y recién salido, consulten por los suyos  ",
+        "precio": 1000,
+        "img": "/macetaschnauzer.jpg ",
+        "categoria":"macetas",
+        "stock": 12
+    },
+    {
+        "id": 34,
+        "nombre": "Maceta Botita",
+        "descripcion": " Maceta realizada con impresora 3D, realizamos en varios colores y tamaños",
+        "precio": 1000,
+        "img": "/macetazapato.jpg",
+        "categoria":"macetas",
+        "stock": 13
+    },
+    {
+        "id": 35,
+        "nombre": " Los Tres Monos Sabios",
+        "descripcion": " Macetas colección : No ver mal, no oir el mal , no decir el mal . Traducción del codigo moral chino del Santai .    ",
+        "precio": 1000,
+        "img": "/monito.jpg ",
+        "categoria":"macetas",
+        "stock": 10
+    }
+]
