@@ -1,13 +1,12 @@
-import{Link} from 'react-router-dom'
-import { CartWidget } from '../CartWidget/CartWidget'
-import './Navbar.scss'
 import logo from '../../assets/logo.jpg'
-import Menu from '../Menu/Menu'
+import {CartWidget} from '../CartWidget/CartWidget'
+import MenuDesplegable from '../Menu desplegable/MenuDesplegable'
+import './Navbar.scss'
+import{Link} from 'react-router-dom'
 
 export const Navbar = () => {
 
-    let productosEnCarrito = 0
-   
+
 
 return (
 
@@ -17,18 +16,24 @@ return (
 
          <nav>
             <ul className="numerador">
-            
+             
+            <li>
                 <CartWidget />
+            </li>
             
-            
-            <li> <p className="cero">{productosEnCarrito}</p></li>
             </ul>
-             <img className="logo" src={logo}></img>
+           
+            <img className="logo" src={logo}></img>
+            <ul className="Navbar">
+            <Link className="linkNavbar" to="/Inicio">Inicio</Link>
+            <MenuDesplegable/>
+             <Link className="linkNavbar" to= "/QuienesSomos">Quienes Somos</Link>
+             <Link className="linkNavbar" to= "/Contacto"> Contacto</Link>
              
+            </ul>
              
+            
          </nav>
-         <Menu/>
-       
         </div>
     </header>
 )

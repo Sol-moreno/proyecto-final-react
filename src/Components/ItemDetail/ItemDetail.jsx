@@ -1,22 +1,23 @@
 import {useContext, useState } from "react"
 import ItemCount from "../ItemCount/ItemCount"
-// import { CartContext } from "../../Contexto/CartContext"
+import { CartContext } from "../Contexto/CartContext"
 import { Link } from "react-router-dom"
 import Card from 'react-bootstrap/Card'
 
 const ItemDetail = ({item}) => {
     
+  const { agregarAlCarrito, isInCart } = useContext(CartContext)
 
     const [cantidad, setCantidad] = useState(1)
 
     const handleAgregar = () => {
-        
-              item,
-            cantidad
-    
+      const newItem = {
+          ...item,
+          cantidad
+      }
 
-        
-    }
+      agregarAlCarrito(newItem)
+  }
     
     return (
 
@@ -32,13 +33,15 @@ const ItemDetail = ({item}) => {
          </Card>
         
             {  
-                    
-                      <ItemCount 
-                        max={item.stock}
-                        cantidad={cantidad}
-                        setCantidad={setCantidad}
-                        agregar={handleAgregar}
-                    />
+                       isInCart(item.id)
+                       ? <Link className="btn btn-success" to="/cart">Terminar mi compra</Link>
+                       : <ItemCount 
+                           max={item.stock}
+                           cantidad={cantidad}
+                           setCantidad={setCantidad}
+                           agregar={handleAgregar}
+                       />
+                
             }
                         
         </div>

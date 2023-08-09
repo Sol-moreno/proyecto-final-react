@@ -1,3 +1,5 @@
+import "./QuienesSomos.scss"
+
 const QuienesSomos =() => {
 
     return (

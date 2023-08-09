@@ -6,8 +6,8 @@ import { Link } from "react-router-dom"
 const ItemCard = ({item}) => {
 
     return (
-        <div className="col-3 m-5">
-        <Card style={{ width: '20rem' }}>
+        <div className="col-2 m-3 ">
+        <Card style={{ width: '15rem' }}>
         <Card.Img variant="top" src={item.img} alt= {item.nombre}/>
         <Card.Body>
           <Card.Title>{item.nombre}</Card.Title>
