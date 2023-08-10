@@ -8,7 +8,7 @@ export const CartWidget = () => {
 
 
 return (
-    <div>
+    <div className='numerador'>
         <Link to ="/cart" className= "cursor-pointer">
         <img className="carrito" src={carrito}></img>
          <span className='cero'>{totalCantidad()}</span> 

@@ -1,13 +1,22 @@
 .carrito{
-    width:6rem ;
-    border-radius: 60%;
+    width:5rem;
+   border-radius: 80%;
+   
+}
+
+.cero{
+    color: black;
+    background-color: white;
+    font-size: 2rem;
+    border-radius: 80%;
+   
 }
 
 .numerador{
     position: absolute;
-    top: 20px;
-    right: 25px;
-    font-size: 2rem;
+    top: 25px;
+    right: 150px;
+    font-size: 1rem;
     text-align: center;
     min-height: 18px;
     line-height: 18px;
@@ -17,14 +26,5 @@
     list-style: none;
     display: flex;
     justify-content: space-between;
-    
-  }
-  .cero{
-    background-color: white;
-    color:black;
-    cursor: pointer;
-    margin-right:.5em;
-    
-    
 
-  }
+}

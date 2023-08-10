@@ -8,7 +8,7 @@ import Contacto from "./Components/Contacto/Contacto"
 import QuienesSomos from "./Components/Quienes Somos/QuienesSomos"
 import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom"
 import { CartProvider } from './Components/Contexto/CartContext';
-import CartView from './Components/CartView/CartView';
+import CartView from './Components/CartView/CartView'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 
@@ -29,6 +29,7 @@ function App() {
          <Route path='/productos'element ={ <ItemListContainer /> }/>
          <Route path="/productos/:categoryId" element={ <ItemListContainer /> }/>
          <Route path= "/detail/:itemId" element= {<ItemDetailContainer/>}  />
+         {/* <Route path="/checkout" element={ <Checkout /> }/> */}
          <Route path= "/Contacto" element= {<Contacto/>}  />
          <Route path= "/QuienesSomos" element= {<QuienesSomos/>}  />
          <Route path="/cart" element={ <CartView /> }/>

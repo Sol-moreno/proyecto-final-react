@@ -35,7 +35,7 @@ const Footer = () => {
                 <p><strong >Visitenos en Nuestras Redes</strong></p>
 
                     <a href="https://www.instagram.com/lepetitecreativity3d/">
-                        <img src="../../../public/instagram.png" alt="icono-instagram" className="redes" />
+                        <img src="/instagram.png" alt="icono-instagram" className="redes" />
                     </a>
                     <a href=" https://www.facebook.com/florencia.gonzalez.965">
                         <img src="/facebook (2).png" alt="icono-facebook" className="redes" />

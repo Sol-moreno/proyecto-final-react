@@ -15,21 +15,17 @@ return (
         <div className="headerContainer">
 
          <nav>
-            <ul className="numerador">
+         <Link className="linkNavbar" to= "/Contacto"> Contacto</Link>
              
-            <li>
                 <CartWidget />
-            </li>
-            
-            </ul>
-           
             <img className="logo" src={logo}></img>
-            <ul className="Navbar">
+            <ul className='Navbar'>
             <Link className="linkNavbar" to="/Inicio">Inicio</Link>
-            <MenuDesplegable/>
+            <Link className="linkNavbar" to= "/productos/varios">Varios</Link>  
+             <Link className="linkNavbar" to="/productos/macetas">Macetas</Link>
+             <Link className="linkNavbar" to= "/productos/figuras anime">Figuras de Anime</Link>
              <Link className="linkNavbar" to= "/QuienesSomos">Quienes Somos</Link>
-             <Link className="linkNavbar" to= "/Contacto"> Contacto</Link>
-             
+           
             </ul>
              
             
