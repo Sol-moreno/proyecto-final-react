@@ -27,14 +27,15 @@ const ItemDetail = ({item}) => {
         <Card.Body>
         <Card.Img variant="top" src={item.img} alt= {item.nombre}/>
           <Card.Title> {item.descripcion}</Card.Title>
-          <Card.Text>
-            $ {item.precio} </Card.Text>
+          <Card.Text> $ {item.precio} </Card.Text>
         </Card.Body>
          </Card>
         
             {  
                        isInCart(item.id)
+                    
                        ? <Link className="btn btn-success" to="/cart">Terminar mi compra</Link>
+                         
                        : <ItemCount 
                            max={item.stock}
                            cantidad={cantidad}
