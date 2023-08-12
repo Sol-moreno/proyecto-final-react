@@ -5,7 +5,7 @@ import { db } from "../../Firebase/config";
 import { Link, Navigate } from "react-router-dom";
 import { Formik , Form, Field , ErrorMessage} from 'formik'
 import * as Yup from 'yup'
-
+import './Checkout'
 
  
 
@@ -88,13 +88,13 @@ const Checkout = () => {
   }
   if (tiketId) {
     return (
-     <div>
-     <h2> tu compra se registro con exito</h2>
+     <div className="ordenFinal">
+     <h2 className="tituloOrden"> Tu compra se registro con exito</h2>
      <hr />
-      <p> tu numero de orde es : <strong> {tiketId}</strong> </p>
-      <Link to="/Inicio">Volver</Link>
+      <p className="tituloOrden" > Tu numero de orden es : <strong> {tiketId}</strong> </p>
+      <Link to="/Inicio" className="btn btn-success mx-3">Volver al inicio</Link>
 
-      // </div>
+       </div>
     )
   }
 
