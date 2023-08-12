@@ -14,7 +14,7 @@ return (
         <div className="headerContainer">
 
          <nav>
-         <Link className="linkNavbar" to= "/Ubicacion"><img src="/ubicacion.png" alt="ubicacion" className='ubicacion' /> </Link>
+         <Link to= "/Ubicacion"><img src="/ubicacion.png" alt="ubicacion" className='ubicacion' /> </Link>
              
                 <CartWidget />
             <img className="logo" src={logo}></img>

@@ -11,7 +11,8 @@ import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom"
 import { CartProvider } from './Components/Contexto/CartContext';
 import CartView from './Components/CartView/CartView'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css'
+
+
 
 
 

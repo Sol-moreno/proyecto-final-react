@@ -33,8 +33,7 @@ const CartView = () => {
                     <div className='productosfinal'  key={item.id}>
                         <img style= {{height:'18rem'}}  src={item.img} alt={item.nombre}/>
                         <div className="cantidadfinal">
-                        {/* <p> ${item.precio * item.cantidad}</p> */}
-                        <p>Cantidad: {item.cantidad}</p>
+                        <p className="productosA">Productos Agregados: {item.cantidad}</p>
                         <button onClick={() => removerDelCarrito(item.id)} className="btn btn-danger"><FaTrashAlt/></button>
                         </div>
                     </div>

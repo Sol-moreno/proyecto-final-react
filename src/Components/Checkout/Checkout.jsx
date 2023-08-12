@@ -4,8 +4,11 @@ import { collection, getDocs, writeBatch, where, query, documentId, addDoc } fro
 import { db } from "../../Firebase/config";
 import { Link, Navigate } from "react-router-dom";
 import { Formik , Form, Field , ErrorMessage} from 'formik'
-import * as Yup from 'yup';
+import * as Yup from 'yup'
+
+
  
+
 
 const schema = Yup.object().shape({
    nombre: Yup.string().min(6,"El nombre es demasiado corto")
@@ -85,13 +88,13 @@ const Checkout = () => {
   }
   if (tiketId) {
     return (
-      <div>
-        <h2> tu compra se registro con exito</h2>
-        <hr />
-        <p> tu numero de orde es : <strong> {tiketId}</strong> </p>
-        <Link to="/Inicio">volver</Link>
+     <div>
+     <h2> tu compra se registro con exito</h2>
+     <hr />
+      <p> tu numero de orde es : <strong> {tiketId}</strong> </p>
+      <Link to="/Inicio">Volver</Link>
 
-      </div>
+      // </div>
     )
   }
 
@@ -135,57 +138,12 @@ const Checkout = () => {
 
       </Formik>
 
-      {/* <form onSubmit={handleSubmit}>
-        <input
-          onChange={handleChange}
-          value={values.nombre}
-          type="text"
-          className="form-control my-2"
-          placeholder="Nombre"
-          name="nombre"
-        />
-
-        <input
-          onChange={handleChange}
-          value={values.email}
-          type="text"
-          className="form-control my-2"
-          placeholder="email"
-          name="email"
-        />
-        <input
-          onChange={handleChange}
-          value={values.direccion}
-          type="text"
-          className="form-control my-2"
-          placeholder="Dirección"
-          name="direccion"
-        />
-        <input
-          onChange={handleChange}
-          value={values.otro}
-          type="text"
-          className="form-control my-1"
-          placeholder="Otros"
-          name="otro"
-        />
-
-        <button className=" btn btn-success" type="submit"> Enviar </button>
-
-      </form> */}
-
-
-
-
-
+  
 
 
     </div>
 
 
-  )
-
-
-}
+  )}
 
 export default Checkout 

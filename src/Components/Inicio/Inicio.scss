@@ -1,6 +1,6 @@
 .Presentacion{
-    margin-top : 50px;
-    width:100%;
+    background-color:rgb(141, 245, 141);
+    background: linear-gradient(170deg, rgba(71, 248, 6, 0.548), rgba(245, 242, 242, 0.719));
    
     
    
@@ -22,15 +22,16 @@
 
 .Titulop{
     text-align:center;
+    color: green;
+    font-size: 2rem;
     
 }
 .Parrafop{
     text-align:center;
     line-height:normal;
-    word-spacing:-.1ch;
-    letter-spacing:-.1ch;
     font-weight:bold;
     font-size: larger;
+    color: green;
    
 
    
