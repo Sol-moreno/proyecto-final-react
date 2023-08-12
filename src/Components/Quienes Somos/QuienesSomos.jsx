@@ -1,18 +1,32 @@
 import "./QuienesSomos.scss"
 
-const QuienesSomos =() => {
+const QuienesSomos = () => {
 
     return (
         <div>
-    
+
             <p>
-               SOMOS  FLOR Y FITO , GRACIAS POR ELEGIRNOS!
+                Somos "Le Petite Creaciones 3D" , estamos felices de poder compartir todos nuestros trabajos.
+                Cada creación esta realizada con la mejor calidad en materia prima y producción.
+                Algunos productos son realizados con resina , pintados a mano , mientras que otros con una moderna impresora 3D.
+                Nuestra misión es brindarle a cada uno un servicio personalizado, por lo que no duden en consultarnos.
             </p>
-    
-            <img className = "flor" src="  https://scontent.fsla1-1.fna.fbcdn.net/v/t1.6435-9/129077222_10222299596295512_5788397726715749246_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFf-kOMTDZ52aSkLOnkaWrLd078wXiXNgV3TvzBeJc2BVNqle2f8zMtKLlRkV3uqyU&_nc_ohc=zDBMOmg9QIUAX9lSJUG&_nc_ht=scontent.fsla1-1.fna&oh=00_AfDrbXaYz98ngKdMY1sPWCJLl5g41GTKKxUBr_WN1OEtSg&oe=64DB98A5  " alt="" />
-           
+
+
+            <div className="fito">
+
+            <p>
+                GRACIAS POR ELEGIRNOS!!
+            </p>
+            <p>
+                Florencia y Fito
+            </p>
+
+            <img src="/florfito.jpg" alt="flor" className="flor" />
+            </div>
+
         </div>
     )
-    
-    }
-    export default QuienesSomos
+
+}
+export default QuienesSomos

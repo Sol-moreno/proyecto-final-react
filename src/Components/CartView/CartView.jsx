@@ -33,7 +33,7 @@ const CartView = () => {
                     <div className='productosfinal'  key={item.id}>
                         <img style= {{height:'18rem'}}  src={item.img} alt={item.nombre}/>
                         <div className="cantidadfinal">
-                        <p> ${item.precio * item.cantidad}</p>
+                        {/* <p> ${item.precio * item.cantidad}</p> */}
                         <p>Cantidad: {item.cantidad}</p>
                         <button onClick={() => removerDelCarrito(item.id)} className="btn btn-danger"><FaTrashAlt/></button>
                         </div>
@@ -47,7 +47,7 @@ const CartView = () => {
             <div className="final">
                 <h4 className="text-3xl my-2">Total: ${totalCompra()}</h4>
                 <button onClick={vaciarCarrito} className="btn btn-danger">Vaciar carrito</button>
-                <Link className="btn btn-success mx-2" to="/checkout">Terminar mi compra</Link>
+                <Link className="btn btn-success mx-2" to="/checkout">Finalizar Compra</Link>
             </div>            
         </div>
     )

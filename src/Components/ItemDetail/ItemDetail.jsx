@@ -3,6 +3,7 @@ import ItemCount from "../ItemCount/ItemCount"
 import { CartContext } from "../Contexto/CartContext"
 import { Link } from "react-router-dom"
 import Card from 'react-bootstrap/Card'
+import './ItemDetail.scss'
 
 const ItemDetail = ({item}) => {
     
@@ -21,13 +22,15 @@ const ItemDetail = ({item}) => {
     
     return (
 
-        <div className="row">
-        <Card style={{ width: '30rem' }}>
+        <div className= 'cardEstilo'>
+        <Card style={{ width: '25rem' }}>
         <Card.Title>{item.nombre}</Card.Title>
         <Card.Body>
         <Card.Img variant="top" src={item.img} alt= {item.nombre}/>
-          <Card.Title> {item.descripcion}</Card.Title>
-          <Card.Text> $ {item.precio} </Card.Text>
+        
+          <Card.Text>{item.descripcion}</Card.Text>
+          <Card.Title> $ {item.precio} </Card.Title>
+
         </Card.Body>
          </Card>
         

@@ -1,6 +1,5 @@
 import logo from '../../assets/logo.jpg'
 import {CartWidget} from '../CartWidget/CartWidget'
-import MenuDesplegable from '../Menu desplegable/MenuDesplegable'
 import './Navbar.scss'
 import{Link} from 'react-router-dom'
 
@@ -15,7 +14,7 @@ return (
         <div className="headerContainer">
 
          <nav>
-         <Link className="linkNavbar" to= "/Contacto"> Contacto</Link>
+         <Link className="linkNavbar" to= "/Ubicacion"><img src="/ubicacion.png" alt="ubicacion" className='ubicacion' /> </Link>
              
                 <CartWidget />
             <img className="logo" src={logo}></img>
