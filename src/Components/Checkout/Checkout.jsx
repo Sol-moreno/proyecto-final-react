@@ -3,6 +3,21 @@ import { CartContext } from "../Contexto/CartContext";
 import { collection, getDocs, writeBatch, where, query, documentId, addDoc } from "firebase/firestore";
 import { db } from "../../Firebase/config";
 import { Link, Navigate } from "react-router-dom";
+import { Formik , Form, Field , ErrorMessage} from 'formik'
+import * as Yup from 'yup';
+ 
+
+const schema = Yup.object().shape({
+   nombre: Yup.string().min(6,"El nombre es demasiado corto")
+               .max(20,'El nombre excede los 20 caracteres')
+               .required("Este campo es obligatorio"),
+  direccion:Yup.string().min(6,"El dato ingresado es demasiado corto")
+                .max(20,'La dirección excede los 20 caracteres')
+                .required("Este campo es obligatorio"),
+   email: Yup.string().required("Este campo es obligatorio")
+                .email('El email es invalido'),
+   otro:  Yup.string()
+})
 
 const Checkout = () => {
   const { cart, totalCompra, vaciarCarrito } = useContext(CartContext)
@@ -25,8 +40,8 @@ const Checkout = () => {
     })
   }
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  const handleSubmit = async (values) => {
+    
 
     const orden = {
       cliente: values,
@@ -92,7 +107,35 @@ const Checkout = () => {
       <p>Gracias por elegirnos!!</p>
       <br />
 
-      <form onSubmit={handleSubmit}>
+      <Formik
+      initialValues={{
+        nombre: '',
+        email: '',
+        direccion: '',
+        otro: ''
+      }}
+      onSubmit={handleSubmit}
+      validationSchema={schema}
+
+   >
+      {()=>(
+        <Form>
+          <Field placeholder="Nombre y Apellido" className= "form-control my-2" type="text" name="nombre"/>
+          <ErrorMessage name= "nombre" component= "p"/>
+          <Field placeholder="Email"className= "form-control my-2" type="text" name="email"/>
+          <ErrorMessage name= "email" component= "p"/>
+          <Field placeholder="Dirección"className= "form-control my-2" type="text" name="direccion"/>
+          <ErrorMessage name= "direccion" component= "p"/>
+          <Field placeholder="Otro"className= "form-control my-2" type="text" name="otro"/>
+          <ErrorMessage name= "otro" component= "p"/>
+          <br />
+          <button type="submit" className="btn btn-success"> Enviar </button>
+        </Form>
+      )}
+
+      </Formik>
+
+      {/* <form onSubmit={handleSubmit}>
         <input
           onChange={handleChange}
           value={values.nombre}
@@ -129,7 +172,7 @@ const Checkout = () => {
 
         <button className=" btn btn-success" type="submit"> Enviar </button>
 
-      </form>
+      </form> */}
 
 
 
